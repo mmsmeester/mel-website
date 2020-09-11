@@ -1,11 +1,12 @@
 import React from 'react';
 import './Home.css';
+import TopNav from './TopNav.js';
 
 class Home extends React.Component {
     render() {
         return (
             <div className="Home">
-                My Website
+                <TopNav></TopNav>
             </div>
         );
     }
